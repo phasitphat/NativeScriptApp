@@ -1,0 +1,34 @@
+<ActionBar title="Product" android.position = center>
+    
+    <ActionItem text="Cart" (tap)="cart()"></ActionItem>
+
+</ActionBar>
+<StackLayout orientation="vertical" > 
+
+	<ScrollView orientation="horizontal" marginTop=5% marginLeft=5% marginRight=5% marginBottom=5%>
+        <StackLayout orientation="horizontal"  height="300">
+
+            <GridLayout rows="*, auto" columns="300" >
+
+                <Image row="0" src="res://logo_login" stretch="fill"></Image>
+                <StackLayout row="1" class="list-group-item" opacity="0.7" backgroundColor="gray" color="black">
+                    <Label  text="name" opacity="1"  color="white"></Label>
+                    <Label  text="Price" opacity="1" color="white"></Label>      
+                </StackLayout>
+            </GridLayout> 
+
+            <GridLayout rows="*, auto" columns="300" >
+				<Image row="0" rowSpan="2" src="res://logo_login" stretch="fill"></Image>
+                <StackLayout row="1" class="list-group-item" opacity="0.7" backgroundColor="gray" color="black">
+                    <Label  text="name" opacity="1"  color="white"></Label>
+                    <Label  text="Price" opacity="1" color="white"></Label>      
+                </StackLayout>
+             </GridLayout>
+
+        </StackLayout>
+    
+    </ScrollView>
+
+   <button text="add to cart" style="font-size:20px" marginTop="40" width="250"   backgroundColor="white"	(tap)="add()";></button>
+
+</StackLayout>

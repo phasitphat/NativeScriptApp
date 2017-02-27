@@ -1,0 +1,38 @@
+<ActionBar title="GDShowcase" android.position = center>
+    
+</ActionBar>
+
+<StackLayout orientation="vertical" >
+
+	<StackLayout orientation="vertical" marginTop=10% width="100" height="100">
+		  <Image
+		  marginRight=10% marginLeft=10%
+	      src="res://logo_login"
+	      stretch="none">
+	      </Image>
+	      <Label text="GDShowcase"  ></Label>
+	</StackLayout>
+
+	<StackLayout orientation="vertical" marginTop=5% width="300" height="320" backgroundColor="lightgray">
+
+	<!-- <Label text="Username"  ></Label> -->
+
+	     <TextField marginTop="25" marginRight=10% marginLeft=10%
+	        hint="Email Address"
+	        keyboardType="email">	
+	     </TextField>
+
+	<!-- <Label text="Password"  ></Label> -->
+
+	      <TextField marginTop="5" marginRight=10% marginLeft=10%
+	        hint="Password"
+	        secure="true"
+	        keyboardType="email">	
+	      </TextField>
+
+	<Button text="Sign In" style="font-size:20px" marginTop="40" width="250"   backgroundColor="white" (tap)="home()"></Button>
+	<Button text="Sign Up" style="font-size:20px" marginTop="10" width="250"   backgroundColor="white" (tap)="signup()"></Button>
+
+	</StackLayout>
+
+</StackLayout>

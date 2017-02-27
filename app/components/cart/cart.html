@@ -1,0 +1,54 @@
+<ActionBar title="Cart" android.position = center>
+    <NavigationButton text="Back"></NavigationButton>
+</ActionBar>
+<ScrollView orientation="vertical">
+<StackLayout orientation="vertical" >
+
+
+		<CardView margin="20" elevation="40" radius="10" >
+           <Gridlayout rows="150, auto, auto" columns="auto, auto, *" >
+               <image src="res://logo_login" stretch="fill" colSpan="3" row="0" ></image>
+               <label text="Case 1"  textWrap="true" row="1" colSpan="3"></label>
+               <label text="Price "  textWrap="true" row="2" colSpan="3"></label>
+           </Gridlayout>
+       </CardView>
+
+       <CardView margin="20" elevation="40" radius="10" >
+           <Gridlayout rows="150, auto, auto" columns="auto, auto, *" >
+               <image src="res://logo_login" stretch="fill" colSpan="3" row="0" ></image>
+               <label text="Case 2"  textWrap="true" row="1" colSpan="3"></label>
+               <label text="Price "  textWrap="true" row="2" colSpan="3"></label>
+           </Gridlayout>
+       </CardView>
+
+       <CardView margin="20" elevation="40" radius="10"  >
+           <Gridlayout rows="150, auto, auto" columns="auto, auto, *" >
+               <image src="res://logo_login" stretch="fill" colSpan="3" row="0" ></image>
+               <label text="Case 3"  textWrap="true" row="1" colSpan="3"></label>
+               <label text="Price "  textWrap="true" row="2" colSpan="3"></label>
+           </Gridlayout>
+       </CardView>
+
+       <CardView margin="20" elevation="40" radius="10" >
+           <Gridlayout rows="150, auto, auto" columns="auto, auto, *" >
+               <image src="res://logo_login" stretch="fill" colSpan="3" row="0" ></image>
+               <label text="Case 4"  textWrap="true" row="1" colSpan="3"></label>
+               <label text="Price "  textWrap="true" row="2" colSpan="3"></label>
+           </Gridlayout>
+       </CardView>
+
+       <CardView margin="20" elevation="40" radius="10"  >
+           <Gridlayout rows="150, auto, auto" columns="auto, auto, *" >
+               <image src="res://logo_login" stretch="fill" colSpan="3" row="0" ></image>
+               <label text="Case 5"  textWrap="true" row="1" colSpan="3"></label>
+               <label text="Price "  textWrap="true" row="2" colSpan="3"></label>
+           </Gridlayout>
+       </CardView>
+
+
+      <Button text = "Checkout" style="font-size:20px" marginTop="25" width="250"   backgroundColor="white" 
+      (tap) = "paymentdetail()";> 
+      </Button>
+
+</StackLayout>
+</ScrollView>

@@ -1,0 +1,20 @@
+<ActionBar title="My Orders" android.position = center>
+    <NavigationButton text="Back"></NavigationButton>
+
+</ActionBar>
+<StackLayout orientation="vertical">
+
+		<CardView margin="20" elevation="40" radius="10">
+           <Gridlayout rows="150, auto, auto" columns="auto, auto, *">
+               <image src="res://logo_login" stretch="fill" colSpan="3" row="0" (tap)="product()"; ></image>
+               <label text="Case 1"  textWrap="true" row="1" colSpan="3"></label>
+               <label text="Price "  textWrap="true" row="2" colSpan="3"></label>
+				<!-- stretch="aspectFill" -->
+           </Gridlayout>
+       	</CardView>
+
+<Button text="Payment Detail" style="font-size:20px" marginTop="25" width=30%   backgroundColor="white"  (tap)="paymentdetail()"></Button>
+<Button text="Report Problem" style="font-size:20px" marginTop="25" width=30%   backgroundColor="white"  (tap)="reportproblem()"></Button>
+<Button text="Report Payment" style="font-size:20px" marginTop="25" width=30%   backgroundColor="white"  (tap)="reportpayment()"></Button>
+
+</StackLayout>

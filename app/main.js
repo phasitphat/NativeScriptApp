@@ -1,0 +1,25 @@
+"use strict";
+// this import should be first in order to load some required settings (like globals and reflect-metadata)
+var platform_1 = require("nativescript-angular/platform");
+var core_1 = require("@angular/core");
+var app_component_1 = require("./app.component");
+var router_1 = require("nativescript-angular/router"); // import 
+var app_routing_1 = require("./app.routing"); // import app.routin
+var AppComponentModule = (function () {
+    function AppComponentModule() {
+    }
+    return AppComponentModule;
+}());
+AppComponentModule = __decorate([
+    core_1.NgModule({
+        declarations: [app_component_1.AppComponent].concat(app_routing_1.appComponents),
+        bootstrap: [app_component_1.AppComponent],
+        imports: [
+            platform_1.NativeScriptModule,
+            router_1.NativeScriptRouterModule,
+            router_1.NativeScriptRouterModule.forRoot(app_routing_1.appRoutes)
+        ],
+    })
+], AppComponentModule);
+platform_1.platformNativeScriptDynamic().bootstrapModule(AppComponentModule);
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibWFpbi5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIm1haW4udHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IjtBQUFBLDBHQUEwRztBQUMxRywwREFBZ0c7QUFDaEcsc0NBQXlDO0FBQ3pDLGlEQUErQztBQUMvQyxzREFBdUUsQ0FBRyxVQUFVO0FBQ3BGLDZDQUF5RCxDQUFpQixvQkFBb0I7QUFXOUYsSUFBTSxrQkFBa0I7SUFBeEI7SUFBMEIsQ0FBQztJQUFELHlCQUFDO0FBQUQsQ0FBQyxBQUEzQixJQUEyQjtBQUFyQixrQkFBa0I7SUFUdkIsZUFBUSxDQUFDO1FBQ04sWUFBWSxHQUFHLDRCQUFZLFNBQUssMkJBQWEsQ0FBQztRQUM5QyxTQUFTLEVBQUUsQ0FBQyw0QkFBWSxDQUFDO1FBQ3pCLE9BQU8sRUFBRTtZQUNMLDZCQUFrQjtZQUNsQixpQ0FBd0I7WUFDeEIsaUNBQXdCLENBQUMsT0FBTyxDQUFDLHVCQUFTLENBQUM7U0FDOUM7S0FDSixDQUFDO0dBQ0ksa0JBQWtCLENBQUc7QUFFM0Isc0NBQTJCLEVBQUUsQ0FBQyxlQUFlLENBQUMsa0JBQWtCLENBQUMsQ0FBQyIsInNvdXJjZXNDb250ZW50IjpbIi8vIHRoaXMgaW1wb3J0IHNob3VsZCBiZSBmaXJzdCBpbiBvcmRlciB0byBsb2FkIHNvbWUgcmVxdWlyZWQgc2V0dGluZ3MgKGxpa2UgZ2xvYmFscyBhbmQgcmVmbGVjdC1tZXRhZGF0YSlcclxuaW1wb3J0IHsgcGxhdGZvcm1OYXRpdmVTY3JpcHREeW5hbWljLCBOYXRpdmVTY3JpcHRNb2R1bGUgfSBmcm9tIFwibmF0aXZlc2NyaXB0LWFuZ3VsYXIvcGxhdGZvcm1cIjtcclxuaW1wb3J0IHsgTmdNb2R1bGUgfSBmcm9tIFwiQGFuZ3VsYXIvY29yZVwiO1xyXG5pbXBvcnQgeyBBcHBDb21wb25lbnQgfSBmcm9tIFwiLi9hcHAuY29tcG9uZW50XCI7XHJcbmltcG9ydCB7IE5hdGl2ZVNjcmlwdFJvdXRlck1vZHVsZSB9IGZyb20gXCJuYXRpdmVzY3JpcHQtYW5ndWxhci9yb3V0ZXJcIjsgICAvLyBpbXBvcnQgXHJcbmltcG9ydCB7IGFwcENvbXBvbmVudHMsIGFwcFJvdXRlcyB9IGZyb20gXCIuL2FwcC5yb3V0aW5nXCI7ICAgICAgICAgICAgICAgICAvLyBpbXBvcnQgYXBwLnJvdXRpblxyXG4gXHJcbkBOZ01vZHVsZSh7XHJcbiAgICBkZWNsYXJhdGlvbnM6IFtBcHBDb21wb25lbnQsIC4uLmFwcENvbXBvbmVudHNdLCAgICAgICAgICAgICAgICAgICAgICAgLy8gIC4uLiBpcyBtZWFuIG9uZSBieSBvbmVcclxuICAgIGJvb3RzdHJhcDogW0FwcENvbXBvbmVudF0sXHJcbiAgICBpbXBvcnRzOiBbXHJcbiAgICAgICAgTmF0aXZlU2NyaXB0TW9kdWxlLFx0XHRcdFx0XHRcdFx0XHRcdFx0XHRcdFx0Ly93aGF0IHUgd2FudCBmcm9tIGltcG9ydFxyXG4gICAgICAgIE5hdGl2ZVNjcmlwdFJvdXRlck1vZHVsZSxcclxuICAgICAgICBOYXRpdmVTY3JpcHRSb3V0ZXJNb2R1bGUuZm9yUm9vdChhcHBSb3V0ZXMpXHJcbiAgICBdLFxyXG59KVxyXG5jbGFzcyBBcHBDb21wb25lbnRNb2R1bGUge31cclxuIFxyXG5wbGF0Zm9ybU5hdGl2ZVNjcmlwdER5bmFtaWMoKS5ib290c3RyYXBNb2R1bGUoQXBwQ29tcG9uZW50TW9kdWxlKTsiXX0=

@@ -1,0 +1,59 @@
+<ActionBar title="Sign Up" android.position = center>
+    
+</ActionBar>
+
+<StackLayout orientation="vertical" width="400" height="600">
+
+<!-- <Label text="Username"></Label> -->
+<StackLayout orientation="horizontal" >
+     <TextField hint="Email Address" width=60% keyboardType="email"></TextField>
+     <Label text="*" style="color:red"></Label>
+</StackLayout>
+
+<!-- <Label text="Password"></Label> -->
+<StackLayout orientation="horizontal" >
+      <TextField hint="Password" width=60% secure="true"></TextField>
+      <Label text="*" style="color:red"></Label>
+</StackLayout>
+
+<!-- <Label text="Re-Password"></Label> -->
+<StackLayout orientation="horizontal">
+      <TextField hint="Re-Password" width=60% secure="true"></TextField>
+      <Label text="*" style="color:red"></Label>
+</StackLayout>
+
+<!-- <Label text="Firstname"></Label> -->
+<StackLayout orientation="horizontal">
+	  <TextField hint="Firstname" width=60% ></TextField>
+      <Label text="*" style="color:red"></Label>
+</StackLayout>
+
+<!-- <Label text="Lastname"></Label> -->
+<StackLayout orientation="horizontal">
+	  <TextField hint="Lastname" width=60% ></TextField>
+      <Label text="*" style="color:red"></Label>
+</StackLayout>
+
+<!-- <Label text="Birthday"></Label> -->
+<StackLayout orientation="horizontal">
+     <DatePicker day="1" month="1" year="2017"></DatePicker>
+    <Label text="*" style="color:red"></Label>
+</StackLayout>
+
+<!-- <Label text="Phonenumber"></Label> -->
+<StackLayout orientation="horizontal">
+	  <TextField hint="Phone Number" width=60% keyboardType="number"></TextField>
+      <Label text="*" style="color:red"></Label>
+</StackLayout>
+
+<!-- <Label text="Address"></Label> -->
+<StackLayout orientation="horizontal" >
+	  <TextField hint="Address" width=60% ></TextField>
+      <Label text="*" style="color:red"></Label>
+</StackLayout>
+
+
+<Button text="Submit" style="font-size:20px" marginTop="15" width="250"   backgroundColor="white" (tap)="signin()"></Button> 
+// tap to go signin page and alert box
+ 
+</StackLayout>

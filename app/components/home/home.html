@@ -1,0 +1,60 @@
+<ActionBar title="GDShowcase" android.position = center>
+    
+    <ActionItem text="Cart" (tap)="cart()"></ActionItem>
+    <ActionItem text="Menu" (tap)="menu()"></ActionItem>
+
+</ActionBar>
+<StackLayout orientation="vertical" (loaded)="onSearchLayoutLoaded($event)" tap="clearTextfieldFocus($event)";>
+   <SearchBar #sb width=100% hint="Search" [text]="searchPhrase" (submit)="onSubmit(sb.text)" 
+   (loaded)="onSearchBarLoaded($event)"; ></SearchBar>
+
+   	<ScrollView orientation="horizontal" marginTop=5% marginLeft=5% marginRight=5% marginBottom=5%>
+        <StackLayout orientation="horizontal"  height="300">
+
+            <GridLayout rows="*, auto" columns="300" >
+                <Image row="0" src="res://logo_login" stretch="fill" (tap)="product()";></Image>
+                <StackLayout row="1"  opacity="0.7" backgroundColor="gray" color="black">
+                    <Label  text="name" opacity="1"  color="white"></Label>
+                    <Label  text="Price" opacity="1" color="white"></Label>      
+                </StackLayout>
+            </GridLayout> 
+
+            <GridLayout rows="*, auto" columns="300" >
+				        <Image row="0" src="res://logo_login" stretch="fill" (tap)="product()";></Image>
+                <StackLayout row="1"  opacity="0.7" backgroundColor="gray" color="black">
+                    <Label  text="name" opacity="1"  color="white"></Label>
+                    <Label  text="Price" opacity="1" color="white"></Label>      
+                </StackLayout>
+             </GridLayout>
+
+        </StackLayout>
+    </ScrollView>
+
+<ScrollView orientation="vertical">
+<StackLayout orientation="vertical">
+
+   		<CardView margin="20" elevation="40" radius="10">
+           <Gridlayout rows="150, auto, auto" columns="auto, auto, *">
+               <image src="res://logo_login" stretch="fill" colSpan="3" row="0"(tap)="product()"; ></image>
+               <label text="Case 1"  textWrap="true" row="1" colSpan="3"></label>
+               <label text="Price "  textWrap="true" row="2" colSpan="3"></label>
+				<!-- stretch="aspectFill" -->
+           </Gridlayout>
+       </CardView>
+
+       <CardView margin="20" elevation="40" radius="10">
+           <Gridlayout rows="150, auto, auto" columns="auto, auto, *">
+               <image src="res://logo_login" stretch="fill" colSpan="3" row="0"(tap)="product()"; ></image>
+               <label text="Case 2"  textWrap="true" row="1" colSpan="3"></label>
+               <label text="Price "  textWrap="true" row="2" colSpan="3"></label>
+				<!-- stretch="aspectFill" -->
+           </Gridlayout>
+       </CardView>
+
+ </StackLayout>
+ </ScrollView>
+   
+
+   
+   
+</StackLayout>

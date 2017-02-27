@@ -1,0 +1,17 @@
+<ActionBar title="Menu" android.position = center>
+	<NavigationButton text="Back"></NavigationButton>
+</ActionBar>
+
+<StackLayout >
+<Gridlayout rows="150, auto, auto" columns="auto, auto, *">
+
+   <Label text="Edit Profile" row="0" col="0"	style="font-size:20px" marginTop="20" width="150" height="150"   backgroundColor="white" (tap)="editProfile()";	></Label>
+
+   <Label text="My Order" 	row="0"	col="1" style="font-size:20px" marginTop="20" width="150" height="150"    backgroundColor="white" (tap)="myOrder()";		></Label>
+
+   <Label text="Contact Us" row="1"	col="0" style="font-size:20px" marginTop="20" width="150" height="150"    backgroundColor="white" (tap)="contactUs()";	></Label>
+
+   <Label text="Sign Out" 	row="1"	col="1" style="font-size:20px" marginTop="20" width="150" height="150"    backgroundColor="white" (tap)="signOut()";		></Label>
+
+</Gridlayout>
+</StackLayout>
