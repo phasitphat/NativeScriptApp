@@ -32,9 +32,11 @@ export class MyorderComponent {
 
 	}
 
+	public product(){
+
+		this.router.navigate(["product"]);          // come from path in routing ts
+
+	}
+
 
 }
-
-
-    
-    
