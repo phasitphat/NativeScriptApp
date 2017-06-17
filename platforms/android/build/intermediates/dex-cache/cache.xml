@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\AzEulB\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="C:\Users\AzEulB\GravityDesigns\platforms\android\build\intermediates\pre-dexed\F0\debug\support-annotations-24.2.1_25a45a6bb53e52fe3f6f17d4b796cb50eff575f2.jar" />
+    </item>
+    <item
+        jar="C:\Users\AzEulB\GravityDesigns\platforms\android\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="C:\Users\AzEulB\GravityDesigns\platforms\android\build\intermediates\pre-dexed\F0\debug\internal_impl-24.2.1_72f75648b9802deb5e23a91846959f2d1c2d8214.jar" />
+    </item>
+    <item
+        jar="C:\Users\AzEulB\GravityDesigns\platforms\android\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="C:\Users\AzEulB\GravityDesigns\platforms\android\build\intermediates\pre-dexed\F0\debug\internal_impl-24.2.1_ab1aa76ab7f4cc8aea29591a671b6e5a4138dda1.jar" />
+    </item>
+    <item
+        jar="C:\Users\AzEulB\GravityDesigns\platforms\android\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="C:\Users\AzEulB\GravityDesigns\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-animated-vector-drawable-24.2.1_55d04d342505610b3bdbcb8b8e2d2ef7ac8578c7.jar" />
+    </item>
+    <item
+        jar="C:\Users\AzEulB\GravityDesigns\platforms\android\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="C:\Users\AzEulB\GravityDesigns\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-support-core-utils-24.2.1_40485a24e2a4ce972a3465e7285e536b94eaf695.jar" />
+    </item>
+    <item
+        jar="C:\Users\AzEulB\GravityDesigns\platforms\android\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="C:\Users\AzEulB\GravityDesigns\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-support-fragment-24.2.1_093256e75afe2f77eef5f566a01d62fdf57a9af0.jar" />
+    </item>
+    <item
+        jar="C:\Users\AzEulB\GravityDesigns\platforms\android\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="C:\Users\AzEulB\GravityDesigns\platforms\android\build\intermediates\pre-dexed\F0\debug\internal_impl-24.2.1_13bfc5ed1993cf82382314ef4fe44df89dbee0d7.jar" />
+    </item>
+    <item
+        jar="C:\Users\AzEulB\GravityDesigns\platforms\android\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="C:\Users\AzEulB\GravityDesigns\platforms\android\build\intermediates\pre-dexed\F0\debug\internal_impl-24.2.1_9ab3fc65d844ceb175237682b5f359d411b1dcdc.jar" />
+    </item>
+    <item
+        jar="C:\Users\AzEulB\GravityDesigns\platforms\android\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="C:\Users\AzEulB\GravityDesigns\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-support-core-ui-24.2.1_f2cb34e00ce5f0a32d23ac2f8a65554832c8eafc.jar" />
+    </item>
+    <item
+        jar="C:\Users\AzEulB\GravityDesigns\platforms\android\build\intermediates\exploded-aar\widgets-release\jars\classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="9eec987a0056adc79d607b32e7e1c41997a434a7">
+        <dex dex="C:\Users\AzEulB\GravityDesigns\platforms\android\build\intermediates\pre-dexed\F0\debug\intermediates-exploded-aar-widgets-release_9cd2d6929558d66f74df150e635f2df591b221fb.jar" />
+    </item>
+    <item
+        jar="C:\Users\AzEulB\GravityDesigns\platforms\android\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="C:\Users\AzEulB\GravityDesigns\platforms\android\build\intermediates\pre-dexed\F0\debug\internal_impl-24.2.1_5bfb33d8faa05a49b2acfb9598fe36d6a8e0b86d.jar" />
+    </item>
+    <item
+        jar="C:\Users\AzEulB\GravityDesigns\platforms\android\build\intermediates\exploded-aar\GravityDesigns\runtime\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="632bf39700c28ba66c117628dab343126ef89551">
+        <dex dex="C:\Users\AzEulB\GravityDesigns\platforms\android\build\intermediates\pre-dexed\F0\debug\GravityDesigns-runtime-unspecified_c3211407175f5b53df2e6ce12e40674a0ab0f546.jar" />
+    </item>
+    <item
+        jar="C:\Users\AzEulB\GravityDesigns\platforms\android\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="C:\Users\AzEulB\GravityDesigns\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-support-compat-24.2.1_b52f169f7deafdbcf0135d9703d8a1fd566e2f70.jar" />
+    </item>
+    <item
+        jar="C:\Users\AzEulB\GravityDesigns\platforms\android\build\intermediates\exploded-aar\GravityDesigns\runtime\unspecified\jars\libs\binding-generator.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="d82f3ca98719f09b65db6aeaf450ad3bafc46e81">
+        <dex dex="C:\Users\AzEulB\GravityDesigns\platforms\android\build\intermediates\pre-dexed\F0\debug\binding-generator_ec2af3756c9facf09291a9c90c1307d000a6d0cb.jar" />
+    </item>
+    <item
+        jar="C:\Users\AzEulB\GravityDesigns\platforms\android\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="C:\Users\AzEulB\GravityDesigns\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-appcompat-v7-24.2.1_fe67e68d39f3192e772e04efaca9b681060b5dfd.jar" />
+    </item>
+    <item
+        jar="C:\Users\AzEulB\GravityDesigns\platforms\android\build\intermediates\exploded-aar\com.android.support\design\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="C:\Users\AzEulB\GravityDesigns\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-design-24.2.1_8fc6689b9f356761559a932dbbef7482a4c0f349.jar" />
+    </item>
+    <item
+        jar="C:\Users\AzEulB\GravityDesigns\platforms\android\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="C:\Users\AzEulB\GravityDesigns\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-support-vector-drawable-24.2.1_676fc13edf5b1fc7cb20c433fd07f4bfa4518bca.jar" />
+    </item>
+    <item
+        jar="C:\Users\AzEulB\GravityDesigns\platforms\android\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="C:\Users\AzEulB\GravityDesigns\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-recyclerview-v7-24.2.1_52973b2a4ebbd64fd034f26e6307f01493b3411d.jar" />
+    </item>
+    <item
+        jar="C:\Users\AzEulB\GravityDesigns\platforms\android\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\AzEulB\GravityDesigns\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-support-v4-24.2.1_8edbb07221b3047c9a15ffceddfa3bc24aca32eb.jar" />
+    </item>
+    <item
+        jar="C:\Users\AzEulB\GravityDesigns\platforms\android\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="C:\Users\AzEulB\GravityDesigns\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-support-media-compat-24.2.1_f1a9d532e1599a899fc18bef8469cfaa8f6c9642.jar" />
+    </item>
+
+</items>

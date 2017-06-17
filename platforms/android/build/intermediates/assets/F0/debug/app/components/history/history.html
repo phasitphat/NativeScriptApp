@@ -1,0 +1,95 @@
+<ActionBar title="History" >
+    <NavigationButton icon="res://ic_arrow_back_black_24dp" (tap)="menu()"></NavigationButton>
+</ActionBar>
+
+<!-- marginTop="20" marginLeft="50" marginRight="50" -->
+<ScrollView orientation="vertical">
+<StackLayout orientation="vertical">
+
+<!-- <Label *ngFor="let hero of heroes" [text]="hero"></Label> -->
+<!-- <Label *ngFor="let product of orderlist.productinorder_set" [text]="product.product_name"></Label> -->
+
+<template ngFor let-order [ngForOf]="orderlist" >
+
+<StackLayout orientation="vertical" backgroundColor="lightgray" marginTop="30" width="400" height="250" paddingLeft="20" paddingTop="20">
+
+  
+
+    <GridLayout rows="auto, auto, auto, auto, auto, auto, auto, auto, auto, auto, auto, auto, auto, auto, auto" columns="auto, auto, auto, 2*">
+
+
+
+    <front color="black" size="5">
+            <Label row="0" col="0" class="text-left" class="font-weight-bold" text="Order Id : " ></Label>
+            <Label row="1" col="0" class="text-left" text="Status Payment : " ></Label>
+
+            <Label row="12" col="0" marginTop="10" class="text-left" class="font-weight-bold" text="Total Price : " ></Label>
+
+
+
+            <Label row="0" col="1" class="text-left" class="font-weight-bold" [text]="order.id" ></Label>
+
+    <li *ngIf="order.status_payment == 1" >
+            <front color="green">
+            <Label  row="1" col="1"  class="text-left" class="font-weight-bold" text="Waiting Payment" ></Label>
+            </front>
+    </li>
+    <li *ngIf="order.status_payment == 2" >
+            <front color="green">
+            <Label  row="1" col="1"  class="text-left" class="font-weight-bold" text="Paid" ></Label>
+            </front>
+    </li>
+    <li *ngIf="order.status_payment == 3" >
+            <front color="red">
+            <Label  row="1" col="1"  class="text-left" class="font-weight-bold" text="Report Problem" ></Label>
+            </front>
+    </li>
+    <li *ngIf="order.status_payment == 4" >
+            <front color="red">
+            <Label  row="1" col="1"  class="text-left" class="font-weight-bold" text="Close" ></Label>
+            </front>
+    </li>
+
+        <template ngFor let-product [ngForOf]="order.productinorder_set" let-i="index">
+            <li *ngIf="product.product_name != null" >
+                <Label [row]="i+3" col="0" text="Product Name : " ></Label>
+                <Label [row]="i+3" col="2" marginLeft="10" text="Price : " ></Label>
+                <Label [row]="i+3" col="4" marginLeft="15" text=" ฿" ></Label>
+
+                <Label [row]="i+3" col="1" [text]="product.product_name" ></Label>
+                <Label [row]="i+3" col="3" marginRight="15" [text]="product.totalprice_per_product" ></Label>
+            </li>
+        </template>  
+
+            <br><br>
+            <front color="red" bold>
+            <Label row="12" col="1" marginTop="10" class="font-weight-bold" text-align="left"  [text]="order.total_price" ></Label>
+            </front>
+            <Label row="12" col="2" marginTop="10" class="font-weight-bold" text=" Baht" ></Label>
+            
+
+        </front>
+    </GridLayout>
+    <StackLayout orientation="horizontal">
+
+        <front color="black" bold>
+            <Label marginTop="10" text="Tracking : "></Label>
+        </front>
+
+
+        <front color="red" bold>
+            <Label marginTop="10" [text]="order.tracking" ></Label>
+        </front>
+
+
+        <Button marginLeft="50" marginTop="5" marginBottom="5" text="Received" color="white" style="font-size:13px; background-color:green;" (tap)="Receive(order.id)"></Button>
+    </StackLayout>
+
+</StackLayout>
+</template>
+
+<Button class="font-weight-bold" text="Back" style="font-size:15px" marginTop="40" marginBottom="40" width=30%   backgroundColor="white"  (tap)="menu()"></Button>
+
+
+</StackLayout>
+</ScrollView>

@@ -1,0 +1,47 @@
+"use strict";
+// this import should be first in order to load some required settings (like globals and reflect-metadata)
+// >> ngmodule-config
+// >> (hide)
+var core_1 = require("@angular/core");
+var platform_browser_1 = require("@angular/platform-browser");
+var http_1 = require("@angular/http");
+var router_1 = require("nativescript-angular/router");
+var forms_1 = require("nativescript-angular/forms");
+var platform_1 = require("nativescript-angular/platform");
+var app_routing_1 = require("./app.routing"); // import app.routin
+var forms_2 = require("@angular/forms");
+var http_2 = require("nativescript-angular/http");
+var app_component_1 = require("./app.component");
+var element_registry_1 = require("nativescript-angular/element-registry");
+// import { AuthGuard } from './_guards/index';
+// import { AuthenticationService, UserService } from './_services/index';
+// used to create fake backend
+// import { fakeBackendProvider } from './_helpers/index';
+// import { MockBackend, MockConnection } from '@angular/http/testing';
+// import { BaseRequestOptions } from '@angular/http';
+element_registry_1.registerElement("DropDown", function () { return require("nativescript-drop-down/drop-down").DropDown; });
+var AppModule = (function () {
+    // << ngmodule-config
+    function AppModule() {
+    }
+    return AppModule;
+}());
+AppModule = __decorate([
+    core_1.NgModule({
+        declarations: [app_component_1.AppComponent].concat(app_routing_1.appComponents),
+        imports: [
+            platform_browser_1.BrowserModule,
+            http_1.HttpModule,
+            forms_2.FormsModule,
+            http_2.NativeScriptHttpModule,
+            platform_1.NativeScriptModule,
+            forms_1.NativeScriptFormsModule,
+            router_1.NativeScriptRouterModule,
+            router_1.NativeScriptRouterModule.forRoot(app_routing_1.appRoutes),
+        ],
+        providers: [],
+        bootstrap: [app_component_1.AppComponent],
+    })
+], AppModule);
+exports.AppModule = AppModule;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiYXBwLm1vZHVsZS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbImFwcC5tb2R1bGUudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IjtBQUFBLDBHQUEwRztBQUMxRyxxQkFBcUI7QUFDckIsWUFBWTtBQUNaLHNDQUF5QztBQUN6Qyw4REFBMEQ7QUFDMUQsc0NBQStDO0FBRy9DLHNEQUF1RTtBQUN2RSxvREFBcUU7QUFFckUsMERBQWdHO0FBQ2hHLDZDQUF5RCxDQUFpQixvQkFBb0I7QUFFOUYsd0NBQStDO0FBQy9DLGtEQUFtRTtBQUVuRSxpREFBK0M7QUFDL0MsMEVBQXdFO0FBRXhFLCtDQUErQztBQUMvQywwRUFBMEU7QUFFMUUsOEJBQThCO0FBQzlCLDBEQUEwRDtBQUMxRCx1RUFBdUU7QUFDdkUsc0RBQXNEO0FBRXRELGtDQUFlLENBQUMsVUFBVSxFQUFFLGNBQU0sT0FBQSxPQUFPLENBQUMsa0NBQWtDLENBQUMsQ0FBQyxRQUFRLEVBQXBELENBQW9ELENBQUMsQ0FBQztBQThCeEYsSUFBYSxTQUFTO0lBRHRCLHFCQUFxQjtJQUNyQjtJQUF5QixDQUFDO0lBQUQsZ0JBQUM7QUFBRCxDQUFDLEFBQTFCLElBQTBCO0FBQWIsU0FBUztJQTVCckIsZUFBUSxDQUFDO1FBQ04sWUFBWSxHQUFHLDRCQUFZLFNBQUssMkJBQWEsQ0FBQztRQUM5QyxPQUFPLEVBQUU7WUFDTCxnQ0FBYTtZQUNiLGlCQUFVO1lBRVYsbUJBQVc7WUFDWCw2QkFBc0I7WUFDdEIsNkJBQWtCO1lBQ2xCLCtCQUF1QjtZQUN2QixpQ0FBd0I7WUFDeEIsaUNBQXdCLENBQUMsT0FBTyxDQUFDLHVCQUFTLENBQUM7U0FDOUM7UUFDRCxTQUFTLEVBQUUsRUFTVjtRQUNELFNBQVMsRUFBRSxDQUFDLDRCQUFZLENBQUM7S0FHNUIsQ0FBQztHQUVXLFNBQVMsQ0FBSTtBQUFiLDhCQUFTIiwic291cmNlc0NvbnRlbnQiOlsiLy8gdGhpcyBpbXBvcnQgc2hvdWxkIGJlIGZpcnN0IGluIG9yZGVyIHRvIGxvYWQgc29tZSByZXF1aXJlZCBzZXR0aW5ncyAobGlrZSBnbG9iYWxzIGFuZCByZWZsZWN0LW1ldGFkYXRhKVxyXG4vLyA+PiBuZ21vZHVsZS1jb25maWdcclxuLy8gPj4gKGhpZGUpXHJcbmltcG9ydCB7IE5nTW9kdWxlIH0gZnJvbSBcIkBhbmd1bGFyL2NvcmVcIjtcclxuaW1wb3J0IHsgQnJvd3Nlck1vZHVsZSB9IGZyb20gJ0Bhbmd1bGFyL3BsYXRmb3JtLWJyb3dzZXInO1xyXG5pbXBvcnQgeyBIdHRwTW9kdWxlfSAgICAgIGZyb20gJ0Bhbmd1bGFyL2h0dHAnO1xyXG5pbXBvcnQgeyBIdHRwIH0gZnJvbSBcIkBhbmd1bGFyL2h0dHBcIjtcclxuXHJcbmltcG9ydCB7IE5hdGl2ZVNjcmlwdFJvdXRlck1vZHVsZSB9IGZyb20gXCJuYXRpdmVzY3JpcHQtYW5ndWxhci9yb3V0ZXJcIjtcclxuaW1wb3J0IHsgTmF0aXZlU2NyaXB0Rm9ybXNNb2R1bGUgfSBmcm9tIFwibmF0aXZlc2NyaXB0LWFuZ3VsYXIvZm9ybXNcIjtcclxuaW1wb3J0IHsgTW9kYWxEaWFsb2dTZXJ2aWNlIH0gZnJvbSBcIm5hdGl2ZXNjcmlwdC1hbmd1bGFyL21vZGFsLWRpYWxvZ1wiO1xyXG5pbXBvcnQgeyBwbGF0Zm9ybU5hdGl2ZVNjcmlwdER5bmFtaWMsIE5hdGl2ZVNjcmlwdE1vZHVsZSB9IGZyb20gXCJuYXRpdmVzY3JpcHQtYW5ndWxhci9wbGF0Zm9ybVwiOyAgIFxyXG5pbXBvcnQgeyBhcHBDb21wb25lbnRzLCBhcHBSb3V0ZXMgfSBmcm9tIFwiLi9hcHAucm91dGluZ1wiOyAgICAgICAgICAgICAgICAgLy8gaW1wb3J0IGFwcC5yb3V0aW5cclxuXHJcbmltcG9ydCB7IEZvcm1zTW9kdWxlIH0gICBmcm9tICdAYW5ndWxhci9mb3Jtcyc7XHJcbmltcG9ydCB7IE5hdGl2ZVNjcmlwdEh0dHBNb2R1bGUgfSBmcm9tIFwibmF0aXZlc2NyaXB0LWFuZ3VsYXIvaHR0cFwiO1xyXG5cclxuaW1wb3J0IHsgQXBwQ29tcG9uZW50IH0gZnJvbSBcIi4vYXBwLmNvbXBvbmVudFwiO1xyXG5pbXBvcnQgeyByZWdpc3RlckVsZW1lbnQgfSBmcm9tIFwibmF0aXZlc2NyaXB0LWFuZ3VsYXIvZWxlbWVudC1yZWdpc3RyeVwiO1xyXG5cclxuLy8gaW1wb3J0IHsgQXV0aEd1YXJkIH0gZnJvbSAnLi9fZ3VhcmRzL2luZGV4JztcclxuLy8gaW1wb3J0IHsgQXV0aGVudGljYXRpb25TZXJ2aWNlLCBVc2VyU2VydmljZSB9IGZyb20gJy4vX3NlcnZpY2VzL2luZGV4JztcclxuXHJcbi8vIHVzZWQgdG8gY3JlYXRlIGZha2UgYmFja2VuZFxyXG4vLyBpbXBvcnQgeyBmYWtlQmFja2VuZFByb3ZpZGVyIH0gZnJvbSAnLi9faGVscGVycy9pbmRleCc7XHJcbi8vIGltcG9ydCB7IE1vY2tCYWNrZW5kLCBNb2NrQ29ubmVjdGlvbiB9IGZyb20gJ0Bhbmd1bGFyL2h0dHAvdGVzdGluZyc7XHJcbi8vIGltcG9ydCB7IEJhc2VSZXF1ZXN0T3B0aW9ucyB9IGZyb20gJ0Bhbmd1bGFyL2h0dHAnO1xyXG5cclxucmVnaXN0ZXJFbGVtZW50KFwiRHJvcERvd25cIiwgKCkgPT4gcmVxdWlyZShcIm5hdGl2ZXNjcmlwdC1kcm9wLWRvd24vZHJvcC1kb3duXCIpLkRyb3BEb3duKTtcclxuXHJcbkBOZ01vZHVsZSh7XHJcbiAgICBkZWNsYXJhdGlvbnM6IFtBcHBDb21wb25lbnQsIC4uLmFwcENvbXBvbmVudHNdLFxyXG4gICAgaW1wb3J0czogW1xyXG4gICAgICAgIEJyb3dzZXJNb2R1bGUsXHJcbiAgICAgICAgSHR0cE1vZHVsZSxcclxuXHJcbiAgICAgICAgRm9ybXNNb2R1bGUsXHJcbiAgICAgICAgTmF0aXZlU2NyaXB0SHR0cE1vZHVsZSxcclxuICAgICAgICBOYXRpdmVTY3JpcHRNb2R1bGUsXHJcbiAgICAgICAgTmF0aXZlU2NyaXB0Rm9ybXNNb2R1bGUsXHJcbiAgICAgICAgTmF0aXZlU2NyaXB0Um91dGVyTW9kdWxlLFxyXG4gICAgICAgIE5hdGl2ZVNjcmlwdFJvdXRlck1vZHVsZS5mb3JSb290KGFwcFJvdXRlcyksXHJcbiAgICBdLFxyXG4gICAgcHJvdmlkZXJzOiBbXHJcbiAgICAgICAgLy8gQXV0aEd1YXJkLFxyXG4gICAgICAgIC8vIEF1dGhlbnRpY2F0aW9uU2VydmljZSxcclxuICAgICAgICAvLyBVc2VyU2VydmljZSxcclxuICAgICAgICBcclxuICAgICAgICAgICAgICAgICAgICAgICAgIC8vIHByb3ZpZGVycyB1c2VkIHRvIGNyZWF0ZSBmYWtlIGJhY2tlbmRcclxuICAgICAgICAvLyBmYWtlQmFja2VuZFByb3ZpZGVyLFxyXG4gICAgICAgIC8vIE1vY2tCYWNrZW5kLFxyXG4gICAgICAgIC8vIEJhc2VSZXF1ZXN0T3B0aW9uc1xyXG4gICAgXSxcclxuICAgIGJvb3RzdHJhcDogW0FwcENvbXBvbmVudF0sXHJcblxyXG4gICAgXHJcbn0pXHJcbi8vIDw8IG5nbW9kdWxlLWNvbmZpZ1xyXG5leHBvcnQgY2xhc3MgQXBwTW9kdWxlIHsgfVxyXG4iXX0=

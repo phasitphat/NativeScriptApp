@@ -1,0 +1,116 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "nativescript-localstorage",
+        "scope": null,
+        "escapedName": "nativescript-localstorage",
+        "name": "nativescript-localstorage",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "C:\\Users\\AzEulB\\GravityDesigns"
+    ]
+  ],
+  "_from": "nativescript-localstorage@latest",
+  "_id": "nativescript-localstorage@1.1.2",
+  "_inCache": true,
+  "_location": "/nativescript-localstorage",
+  "_nodeVersion": "6.9.4",
+  "_npmOperationalInternal": {
+    "host": "packages-18-east.internal.npmjs.com",
+    "tmp": "tmp/nativescript-localstorage-1.1.2.tgz_1492971964857_0.8489456607494503"
+  },
+  "_npmUser": {
+    "name": "nathanaela",
+    "email": "nathan@master-technology.com"
+  },
+  "_npmVersion": "4.2.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "nativescript-localstorage",
+    "scope": null,
+    "escapedName": "nativescript-localstorage",
+    "name": "nativescript-localstorage",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/nativescript-localstorage/-/nativescript-localstorage-1.1.2.tgz",
+  "_shasum": "824a8a083d8b93891033fd78710305fe680a4e5a",
+  "_shrinkwrap": null,
+  "_spec": "nativescript-localstorage",
+  "_where": "C:\\Users\\AzEulB\\GravityDesigns",
+  "author": {
+    "name": "Nathanael Anderson",
+    "email": "nathan@master-technology.com"
+  },
+  "bugs": {
+    "url": "https://github.com/NathanaelA/nativescript-localstorage/issues"
+  },
+  "dependencies": {},
+  "description": "LocalStorage/SessionStorage API",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "824a8a083d8b93891033fd78710305fe680a4e5a",
+    "tarball": "https://registry.npmjs.org/nativescript-localstorage/-/nativescript-localstorage-1.1.2.tgz"
+  },
+  "gitHead": "688a45cbca31195fbcec5988d9589d55bd3e8408",
+  "homepage": "https://github.com/NathanaelA/nativescript-localstorage",
+  "keywords": [
+    "NativeScript",
+    "local storage",
+    "localstorage",
+    "session storage",
+    "sessionstorage",
+    "nativescript",
+    "data",
+    "storage"
+  ],
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/NathanaelA/nativescript-localstorage/blob/master/LICENSE"
+  },
+  "main": "localstorage",
+  "maintainers": [
+    {
+      "name": "nathanaela",
+      "email": "nathan@master-technology.com"
+    }
+  ],
+  "name": "nativescript-localstorage",
+  "nativescript": {
+    "platforms": {
+      "android": "1.0.0",
+      "ios": "1.0.0"
+    },
+    "plugin": {
+      "nan": "true",
+      "pan": "true",
+      "core3": "true",
+      "category": "Processing"
+    }
+  },
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NathanaelA/nativescript-localstorage.git"
+  },
+  "scripts": {
+    "debug.android": "npm run preparedemo && cd demo && tns debug android --emulator",
+    "debug.ios": "npm run preparedemo && cd demo && tns debug ios --emulator",
+    "demo.android": "npm run preparedemo && cd demo && tns run android",
+    "demo.ios": "npm run preparedemo && cd demo && tns emulate ios",
+    "preparedemo": "cd demo && tns plugin remove nativescript-localstorage && tns plugin add .. && tns install",
+    "setup": "cd demo && npm install && tns plugin add .. && cd ..",
+    "start": "npm run demo.android"
+  },
+  "version": "1.1.2"
+}

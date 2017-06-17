@@ -6,7 +6,7 @@
   "nativescript": {
     "id": "org.nativescript.GravityDesigns",
     "tns-android": {
-      "version": "2.3.0"
+      "version": "2.5.0"
     }
   },
   "dependencies": {
@@ -19,10 +19,16 @@
     "@angular/platform-browser-dynamic": "2.1.2",
     "@angular/router": "3.1.2",
     "nativescript-angular": "1.1.2",
+    "nativescript-dom": "^2.0.0",
+    "nativescript-drop-down": "^1.5.3",
+    "nativescript-localstorage": "^1.1.2",
+    "nativescript-oauth": "^2.0.0",
+    "nativescript-sqlite": "^1.1.3",
     "nativescript-theme-core": "^0.1.3",
     "reflect-metadata": "~0.1.8",
     "rxjs": "5.0.0-beta.12",
-    "tns-core-modules": "2.4.4"
+    "tns-core-modules": "2.4.4",
+    "ts-md5": "^1.2.0"
   },
   "devDependencies": {
     "babel-traverse": "6.21.0",

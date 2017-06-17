@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "C:\\Users\\AzEulB\\GravityDesigns\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\drawable-ldpi-v4\\menu_icon.png",
+        "source": "C:\\Users\\AzEulB\\GravityDesigns\\platforms\\android\\src\\main\\res\\drawable-ldpi\\menu_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\AzEulB\\GravityDesigns\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\drawable-ldpi-v4\\signout.png",
+        "source": "C:\\Users\\AzEulB\\GravityDesigns\\platforms\\android\\src\\main\\res\\drawable-ldpi\\signout.png"
+    },
+    {
+        "merged": "C:\\Users\\AzEulB\\GravityDesigns\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\drawable-ldpi-v4\\icon.png",
+        "source": "C:\\Users\\AzEulB\\GravityDesigns\\platforms\\android\\src\\main\\res\\drawable-ldpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\AzEulB\\GravityDesigns\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\drawable-ldpi-v4\\background.png",
+        "source": "C:\\Users\\AzEulB\\GravityDesigns\\platforms\\android\\src\\main\\res\\drawable-ldpi\\background.png"
+    },
+    {
+        "merged": "C:\\Users\\AzEulB\\GravityDesigns\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\drawable-ldpi-v4\\history.png",
+        "source": "C:\\Users\\AzEulB\\GravityDesigns\\platforms\\android\\src\\main\\res\\drawable-ldpi\\history.png"
+    },
+    {
+        "merged": "C:\\Users\\AzEulB\\GravityDesigns\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\drawable-ldpi-v4\\edit.png",
+        "source": "C:\\Users\\AzEulB\\GravityDesigns\\platforms\\android\\src\\main\\res\\drawable-ldpi\\edit.png"
+    },
+    {
+        "merged": "C:\\Users\\AzEulB\\GravityDesigns\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\drawable-ldpi-v4\\order.png",
+        "source": "C:\\Users\\AzEulB\\GravityDesigns\\platforms\\android\\src\\main\\res\\drawable-ldpi\\order.png"
+    },
+    {
+        "merged": "C:\\Users\\AzEulB\\GravityDesigns\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\drawable-ldpi-v4\\contact.png",
+        "source": "C:\\Users\\AzEulB\\GravityDesigns\\platforms\\android\\src\\main\\res\\drawable-ldpi\\contact.png"
+    },
+    {
+        "merged": "C:\\Users\\AzEulB\\GravityDesigns\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\drawable-ldpi-v4\\home_icon.png",
+        "source": "C:\\Users\\AzEulB\\GravityDesigns\\platforms\\android\\src\\main\\res\\drawable-ldpi\\home_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\AzEulB\\GravityDesigns\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\drawable-ldpi-v4\\cart_icon.png",
+        "source": "C:\\Users\\AzEulB\\GravityDesigns\\platforms\\android\\src\\main\\res\\drawable-ldpi\\cart_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\AzEulB\\GravityDesigns\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\drawable-ldpi-v4\\ic_arrow_back_black_24dp.png",
+        "source": "C:\\Users\\AzEulB\\GravityDesigns\\platforms\\android\\src\\main\\res\\drawable-ldpi\\ic_arrow_back_black_24dp.png"
+    }
+]
